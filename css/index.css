@@ -1,0 +1,12 @@
+body{
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.layout{
+    padding: 50px;
+    margin: 180px 590px 10px 590px;
+    background-color:#1ba0a9;
+}
+
+
