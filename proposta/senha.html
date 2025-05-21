@@ -1,12 +1,15 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Entrar-Hospital das clínicas FMUSP</title>
+    <link rel="stylesheet" href="../css/senha.css">
 </head>
 <body>
-    <header>
+    <header class="banner">
+        <img class="logo2" src="../img/channels4_profile-removebg-preview.png" alt="">
+        <img class="logo1" src="../img/fmusp_logo.png" alt="">
         
     </header>
 <main>
@@ -16,15 +19,15 @@
         <div>
             <form class="layout">
                 
-                    <div>
-                        <label for="idNome">Nome:</label>
-                        <input type="email" name="nome" id="idNome" placeholder="Digite seu nome" required maxlength="100">
-                        <br>
-                        <br>
-                        <label for="idCpf">CPF:</label>
-                        <input type="number" name="Cpf" id="idCpf" placeholder="Digite seu CPF" required maxlength="11">
+                    <div class="grupo-entrar">
+                        <input for="idNome" type="text" name="nome" id="idNome" required maxlength="100">
+                        <label for="idNome">Nome</label>
                     </div>
-                    <br>
+                    <div class="grupo-entrar">   
+                        <input for="idCpf" type="text" name="Cpf" id="idCpf" required maxlength="11">
+                        <label for="idCpf">CPF</label>
+                    </div> 
+                    
                     <div>
                         <button type="submit">Enviar</button>
                     </div>
