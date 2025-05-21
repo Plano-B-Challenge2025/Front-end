@@ -1,15 +1,21 @@
 *{
     background-color: #ffffff;
     box-sizing: border-box;
-    font-family:;
-    
+    text-align: center;
+}
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100vw;
+    height: 100vh;
 }
 /******************/
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 15px;
+    padding: 0px 35px;
     border-bottom: 3px solid #8b8b8b;
 }
 .logo1{
@@ -36,9 +42,7 @@ h1{
     border: #1ba0a9;
     border-radius: 6px;
     gap: 20px;
-    width: 38%;
-    
-    
+    width: 27%;
     
 }
 input{
@@ -47,14 +51,17 @@ input{
     border-radius: 6px;
     margin: 0 auto;
     font-size: 20px;
-    width: 50%;
+    width: 90%;
     height: 35px;
     padding: 10px;
+    float: left;
     
 }
 
 input::placeholder{
     color: black;
+    position: fixed;
+
 }
 
 .enviar{
@@ -67,32 +74,34 @@ input::placeholder{
     background-color: #9af8ff;
     color: #0d5e64;
     font-size: 20px;
+
 }
+
 .enviar:hover{
     background-color: #7abec3;
     color: #093b3e;
+
 }
 
-.criar button{
+.criar a{
     background-color: #0b555b;
     color: #ffffff;
-    display: block;
     border-radius: 6px;
-    width: 20%;
-    height: 35px;
-    margin: 0 auto;
-    border: #1ba0a9;
-    font-size: 20px;
+    border: 2px solid #0b555b;
+    font-size: 23px;
+    text-decoration: none;
+    padding: 12px 18px;
+    
 }
 
-.criar button:hover{
+.criar a:hover{
     background-color: #093b3e;
 }
 
 .criar h3{
     text-align: center;
-    }
-    
+    margin-bottom: 30px;
+}  
 
 /*******************************************/
 /* .grupo-entrar{
@@ -135,3 +144,14 @@ input:valid~label{
     font-size: 0.7rem;
 } */
 /*******************************************/
+
+/* @media ( min-width:375px ){ 
+   
+    header img{
+        flex-direction: row;
+    }
+
+main {
+        
+    }
+} */
