@@ -17,27 +17,27 @@
     <section>
 
         <div>
-            <form class="layout">
+            <form>
                 
-                    <div class="grupo-entrar">
-                        <input for="idNome" type="text" name="nome" id="idNome" required maxlength="100">
-                        <label for="idNome">Nome</label>
-                    </div>
-                    <div class="grupo-entrar">   
-                        <input for="idCpf" type="text" name="Cpf" id="idCpf" required maxlength="11">
-                        <label for="idCpf">CPF</label>
-                    </div> 
+                    <div class="entrar">
+                        <!-- <label for="idNome">Nome</label> -->
+                        
+                        <input for="idCpf" type="text" name="cpf" id="idCpf" placeholder="CPF:" required maxlength="11">
                     
-                    <div>
-                        <button type="submit">Enviar</button>
+                        <!-- <label for="idCpf">CPF</label>  -->
+                        <input for="idSenha" type="text" name="Senha" id="idSenha" placeholder="Senha:" required maxlength="100">
+                    
+                        <button class="enviar">Enviar</button>
+                    
+                        
                     </div>
 
                 
             </form>
         </div>
-        <div>
-            <h3>ainda não tem uma conta?</h3>
-            <button type="submit">Criar</button>
+        <div class="criar">
+            <h3>Ainda não tem uma conta?</h3>
+            <button>Criar</button>
         </div>
     </section>
 
