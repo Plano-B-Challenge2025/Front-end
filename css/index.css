@@ -1,4 +1,6 @@
 body{
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
     text-align: center;
 }
@@ -7,5 +9,37 @@ body{
     padding: 50px;
     margin: 180px 590px 10px 590px;
     background-color:#1ba0a9;
+}
+
+.Titulo{
+    padding:20px;
+    margin: 0 ;
+    background-color: #1ba0a9;
+
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    border-bottom: 3px solid #8b8b8b;
+    
+}
+
+img{
+    max-width: 120px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+footer{
+    width: 100%;
+    background-color: #1ba0a9;
+    align;
 }
 
