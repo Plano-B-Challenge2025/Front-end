@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: 'Exo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+/******************/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    border-bottom: 3px solid #8b8b8b;
+}
+.logo1{
+    height: 80px;
+}
+
+.logo2{
+    height: 140px;
+}
+/******************/
