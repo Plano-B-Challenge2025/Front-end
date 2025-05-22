@@ -1,0 +1,64 @@
+*{
+    box-sizing: border-box;
+}
+/******************/
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    border-bottom: 3px solid #8b8b8b;
+}
+.logo1{
+    height: 80px;
+}
+
+.logo2{
+    height: 140px;
+}
+/******************/
+
+header nav a{
+    text-decoration: none;
+    color: black;
+
+}
+
+header nav a img{
+    width: 40px;
+}
+
+h1{
+    
+    text-align: center;
+    background-color: #1ba0a9;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 567px;
+    border-radius: 7px;      
+}
+
+.card{
+
+    margin: 10px 600px;
+    background-color: #207fc1;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.card p{
+    color: #ffffff;
+
+}
+
+.card h2{
+    color: #ffffff;
+}
+
+footer{
+    padding: 20px;
+    background-color: #207fc1;
+    color: #ffffff;
+    text-align: center;
+}

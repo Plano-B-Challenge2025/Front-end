@@ -1,19 +1,17 @@
 *{
     box-sizing: border-box;
 }
+
 body{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    text-align: center;
-    
 }
 /******************/
 .banner{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 35px;
+    padding: 0px 15px;
     border-bottom: 3px solid #8b8b8b;
 }
 .logo1{
@@ -23,15 +21,7 @@ body{
 .logo2{
     height: 140px;
 }
-
-h1{
-    text-align: center;
-    background-color: #1ba0a9;
-    color: #ffffff;
-    padding: 10px;
-    margin: 10px 650px;
-    border-radius: 7px;      
-}
+/******************/
 
 header nav {
     text-align: center;
@@ -47,35 +37,33 @@ header nav a{
     padding: 0px 120px;
     
 }
-/******************/
 
-
-.coluna50 {
-    background-color:#1ba0a9;
-    border-radius: 15px;
-    padding: 5%;
-    margin: 88px;
-
-}
-.coluna50 img{
-    float: left;
-    width: 43%;
-    background: transparent;
-    margin: 20px;
+h1{
     
+    text-align: center;
+    background-color: #1ba0a9;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 567px;
+    border-radius: 7px;      
+}
+
+.card{
+
+    margin: 10px 600px;
+    background-color: #207fc1;
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    
+}
+.card p{
+    color: #ffffff;
 
 }
-.coluna50 p{
-    font-size: 23px;
-    text-align: justify;
-    margin-bottom: 30px;  
+
+.card h2{
     color: #ffffff;
-}
-.coluna50 h2{
-    text-align: center;
-    padding: 10px 0;
-    color: #ffffff;
-    font-size: 40px;
 }
 
 footer{

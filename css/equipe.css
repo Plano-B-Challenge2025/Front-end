@@ -1,6 +1,10 @@
 *{
-    background-color: #ffffff;
     box-sizing: border-box;
+    
+}
+body{
+    margin: 0;
+    padding: 0;
 }
 /******************/
 .banner{
@@ -24,7 +28,7 @@ h1{
     background-color: #1ba0a9;
     color: #ffffff;
     padding: 10px;
-    margin: 10px 700px;
+    margin: 10px 650px;
     border-radius: 7px;      
 }
 
@@ -44,12 +48,64 @@ header nav a{
 }
 
 
-/*****************/
-#manu{
-    display: block;
+.coluna50 {
+    background-color:#1ba0a9;
+    border-radius: 15px;
+    padding: 5%;
+    margin: 88px;
+
 }
-.manu{
-    display: block;
+.coluna50 img{
+    float: left;
+    width: 43%;
+    background: transparent;
+    margin: 20px;
+    
+
+}
+.coluna50 p{
+    font-size: 23px;
+    text-align: justify;
+    margin-bottom: 30px;  
+    color: #ffffff;
+}
+.coluna50 h2{
+    text-align: center;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 40px;
+}
+.texto{
+    color: #ffffff;
+    background-color: #1ba0a9;
+
 }
 
-/*****************/
+.texto p,h2{
+    color: #ffffff;
+    background-color: #1ba0a9;
+}
+
+.intro img{
+    display: inline;
+    text-align: center;
+    width: 480px;
+}
+
+.intro p{
+    margin: 30px 90px;
+    padding: 30px;
+    font-size: 20px;
+    background-color: #1ba0a9;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+}
+
+footer{
+    padding: 20px;
+    background-color: #207fc1;
+    color: #ffffff;
+    text-align: center;
+    
+}

@@ -1,5 +1,5 @@
 *{
-    background-color: #ffffff;
+    
     box-sizing: border-box;
     text-align: center;
 }
@@ -9,6 +9,8 @@ body{
     background-position: center;
     width: 100vw;
     height: 100vh;
+    margin: 0;
+    padding: 0;
 }
 /******************/
 .banner{
@@ -83,6 +85,10 @@ input::placeholder{
 
 }
 
+.criar{
+    margin-bottom: 82px;
+}
+
 .criar a{
     background-color: #0b555b;
     color: #ffffff;
@@ -102,6 +108,13 @@ input::placeholder{
     text-align: center;
     margin-bottom: 30px;
 }  
+
+footer{
+    padding: 20px;
+    background-color: #207fc1;
+    color: #ffffff;
+    text-align: center;
+}
 
 /*******************************************/
 /* .grupo-entrar{
