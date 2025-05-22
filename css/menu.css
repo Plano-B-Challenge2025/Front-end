@@ -1,0 +1,179 @@
+body {
+    font-family: 'Exo', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f5;
+    }
+
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 80%;
+    font-size: 28px;
+    transition: 0.3s ease-in-out;
+
+}
+header nav a:hover{
+    font-size: 30px;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+
+}
+
+header nav a img{
+    width: 40px;
+}
+
+header nav a img{
+    width: 40px;
+}
+
+.banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 15px;
+    border-bottom: 3px solid #8b8b8b;
+}
+.logo1{
+    height: 80px;
+}
+
+.logo2{
+    height: 140px;
+}
+
+    .container {
+      display: flex;
+      padding: 30px;
+      gap: 50px;
+      margin-left: 100px;
+    }
+
+    .perfil {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .foto-perfil {
+      width: 400px;
+      height: 400px;
+      background: #ddd;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 50px;
+      color: #888;
+    }
+
+    .info {
+      text-align: left;
+    }
+
+    .info label {
+      display: block;
+      margin-bottom: 5px;
+      font-weight: bold;
+    }
+
+    .info input {
+      width: 200px;
+      padding: 5px;
+      margin-bottom: 10px;
+      border: none;
+      border-bottom: 1px solid #aaa;
+      background: transparent;
+    }
+
+    .botoes {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);  
+        gap: 10px; 
+        margin-left: 100px;
+     
+
+    }
+
+    .botao {
+      background: #1aa3a3;
+      color: white;
+      padding: 10px ;
+      margin: 30px;
+      text-align: center;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      cursor: pointer;
+      text-decoration: none;
+    }
+    .botao a{
+        display: flex;
+        flex-direction: column;
+        text-decoration: none;
+        color: #fff;
+        text-align: center;
+        width: 80px;
+        padding: 30px 40px;
+        
+    } 
+
+    .botao:hover {
+      background: #178080;
+    }
+
+    .consulta {
+      background: linear-gradient(to right, #1aa3a3, #007f7f);
+      color: white;
+      padding: 20px;
+      border-radius: 10px;
+      margin-top: 30px;
+      width: 100%;
+      max-width: 400px;
+    }
+
+    .consulta h3 {
+      margin: 0 0 10px 0;
+    }
+
+    .consulta a {
+      color: #fff;
+      text-decoration: underline;
+    }
+
+    .consulta-info {
+      margin-top: 15px;
+    
+    }
+
+    .consulta .botoes-consulta {
+      margin-top: 20px;
+      display: flex;
+      justify-content: space-between;
+    }
+
+    .consulta button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-weight: bold;
+      color: white;
+    }
+
+    .consulta .feita {
+      background: #28a745;
+    }
+
+    .consulta .cancelar {
+      background: #dc3545;
+    }
+
+    footer {
+        padding: 20px;
+        background-color: #207fc1;
+        color: #ffffff;
+        text-align: center;
+    }
+

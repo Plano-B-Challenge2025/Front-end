@@ -3,6 +3,7 @@
 }
 
 body{
+    font-family: 'Exo', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -32,9 +33,20 @@ header nav {
 header nav a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
     background: transparent;
-    padding: 0px 120px;
+    padding: 0px 110px;
+    transition: 0.3s ease-out;
+    
+}
+
+header nav a:hover{
+    color: #ffffff;
+    background: #00000023;
+    transition: 0.3s ease-out;
+    border-radius: 7px;
+    padding: 0px 160px;
+
     
 }
 
@@ -48,22 +60,20 @@ h1{
     border-radius: 7px;      
 }
 
-.card{
-
-    margin: 10px 600px;
-    background-color: #207fc1;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    
-}
-.card p{
-    color: #ffffff;
-
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, auto);
+  gap: 10px;
 }
 
-.card h2{
-    color: #ffffff;
+.block {
+  background-color: #207fc1;
+  padding: 30px;
+  margin: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
 }
 
 footer{

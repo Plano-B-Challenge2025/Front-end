@@ -4,6 +4,7 @@
     text-align: center;
 }
 body{
+    font-family: 'Exo', sans-serif;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -86,7 +87,7 @@ input::placeholder{
 }
 
 .criar{
-    margin-bottom: 82px;
+    margin-bottom: 84px;
 }
 
 .criar a{

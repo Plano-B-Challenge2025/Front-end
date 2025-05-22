@@ -2,6 +2,7 @@
     box-sizing: border-box;
 }
 body{
+    font-family: 'Exo', sans-serif;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -42,11 +43,23 @@ header nav {
 header nav a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
     background: transparent;
-    padding: 0px 120px;
+    padding: 0px 110px;
+    transition: 0.3s ease-out;
     
 }
+
+header nav a:hover{
+    color: #ffffff;
+    background: #00000023;
+    transition: 0.3s ease-out;
+    border-radius: 7px;
+    padding: 0px 160px;
+
+    
+}
+
 /******************/
 
 

@@ -1,6 +1,12 @@
 *{
     box-sizing: border-box;
 }
+
+body{
+    font-family: 'Exo', sans-serif;
+    margin: 0;
+    padding: 0;
+}
 /******************/
 .banner{
     display: flex;
@@ -9,6 +15,7 @@
     padding: 0px 15px;
     border-bottom: 3px solid #8b8b8b;
 }
+
 .logo1{
     height: 80px;
 }
@@ -21,6 +28,16 @@
 header nav a{
     text-decoration: none;
     color: black;
+    margin-bottom: 80%;
+    font-size: 28px;
+    transition: 0.3s ease-in-out; 
+
+}
+header nav a:hover{
+    font-size: 30px;
+    margin-bottom: 80%;
+    transition: 0.3s ease-in-out; 
+    transform: scale(1.1);
 
 }
 
@@ -38,25 +55,24 @@ h1{
     border-radius: 7px;      
 }
 
-.card{
-
-    margin: 10px 600px;
-    background-color: #207fc1;
-    padding: 20px;
-    border-radius: 15px;
-    text-align: center;
-    
-}
-.card p{
-    color: #ffffff;
-
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); 
+  grid-template-rows: repeat(2, auto);  
+  gap: 10px; 
 }
 
-.card h2{
-    color: #ffffff;
+.block {
+  background: linear-gradient(0deg,rgba(27, 160, 169, 1) 0%, rgba(32, 127, 193, 1) 100%);
+  padding: 30px;
+  margin: 50px;
+  text-align: center;
+  border-radius: 10px;
+  color: #ffffff;
 }
 
 footer{
+    
     padding: 20px;
     background-color: #207fc1;
     color: #ffffff;

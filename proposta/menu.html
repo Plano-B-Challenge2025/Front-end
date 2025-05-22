@@ -5,43 +5,82 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Menu-Hospital das clínicas FMUSP</title>
-    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="../css/menu.css">
 </head>
 
 <body>
-    <header>
-        <div class="banner"> 
-            <!-- <img class="logo2" src="../img/hc-logo.png" alt="">
-            <img class="logo1" src="../img/fmusp_logo.png" alt=""> -->
-        </div>
-        <nav>
-        <a href="../index.html">Plano B</a>
-        </nav>
-    </header>
-    <main>
-        <section>
-            <img src="../img/hc-logo.png" alt="Sua foto de perfil, seu rosto lindo está aqui!">
-            <div>
-                <p>aqui vai mostrar o nome do usuario e o seu cpf escondido então vai ter uma tela de simulação</p>
+
+<header>
+  <div class="banner"> 
+        <img class="logo2" src="../img/hc-logo.png" alt="">
+        <img class="logo1" src="../img/fmusp-logo.png" alt="">
+    </div>
+    <nav>
+        <a href="../index.html"><img src="../img/seta.png" alt="uma seta preta">Voltar para a tela inicial</a>
+    </nav>
+</header>
+
+<div class="container">
+  <div class="perfil">
+    <div class="foto-perfil"><img src="../img/perfil.png" alt=""></div>
+    <div class="info">
+      <label>Nome:</label>
+      <input type="text" value="Paciente" readonly>
+      <label>CPF:</label>
+      <input type="text" value="***.***.***-**" readonly>
+    </div>
+  </div>
+
+    <div>
+        <section class="botoes">
+            <div class="botao">
+                <a href="./exames.html"><img src="../img/exames.png" alt="desenho de tuo de ensaio com uma lupa">Exames</a>
+            </div>
+            <div class="botao">
+                <a href="./receitas.html"><img src="../img/pilula.png" alt="um desenho de uma capsula com um risco no meio"> Receita</a>
+            </div>
+            <div class="botao">
+                <a href="./documentos.html"><img src="../img/documentos.png" alt="um desenho de um papel escrito"> Documentos</a>
+            </div>
+            <div class="botao">
+                <a href="./agendamento.html"><img src="../img/calendario.png" alt="um desenho de um papel com dias em numeros">Agendamento</a>
+            </div>
+            <div class="botao">
+                <a href="./teleconsulta.html"><img src="../img/teleconsulta.png" alt="um desenho de uma pessoa e um telefone dentro de uma tela de computador"> Teleconsulta</a>
+            </div>
+            <div class="botao">
+                <a href="./marcarexames.html"><img src="../img/prancheta.png" alt="um desenho de uma placa de madeira com um papel em cima">Marcar Exames</a>
+            </div>
+            <div class="botao">
+                <a href="./faqhc.html"><img src="../img/suporte.png" alt="desenho de uma pessoa com fone de ouvidos">Quer ajuda?</a>
+            </div>
+            <div class="botao">
+                <a href="./avaliacao.html"><img src="../img/super-feliz.png" alt="desenho de um rosto com um sorriso largo e olhos fechados"> Avaliação</a>
             </div>
         </section>
-        
-        <section>
 
-            <a href="./exames.html">Exames</a>
-            <a href="./receitas.html">Receita</a>
-            <a href="./documentos.html">Documentos</a>
-            <a href="./agendamento.html">Agendamento</a>
-            <a href="./teleconsulta.html">Teleconsulta</a>
-            <a href="./marcarexames.html">Marcar Exames</a>
-            <a href="./faqhc.html">Quer ajuda?</a>
-            <a href="./avaliacao.html">Avaliação</a>
-        </section>
-        
-    </main>
-    <footer>
-        
-    </footer>
+    <div class="consulta">
+      <h3>Dr. Maria do Carmo Andrade</h3>
+      <a href="#">Ver local</a>
+
+      <div class="consulta-info">
+        <p><strong>Horário:</strong> 12:00</p>
+        <p><strong>Data:</strong> 07/05/2025</p>
+        <p><strong>Paciente:</strong> Andreia Nascimento</p>
+      </div>
+
+      <div class="botoes-consulta">
+        <button class="feita">Consulta Feita</button>
+        <button class="cancelar">Cancelar Consulta</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer>
+  Produzido por PlanoB - Copyright © 2025. Todos os Direitos Reservados - Direitos Autorais
+</footer>
+
 </body>
 
 </html

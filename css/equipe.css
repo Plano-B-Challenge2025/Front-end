@@ -3,6 +3,7 @@
     
 }
 body{
+    font-family: 'Exo', sans-serif;
     margin: 0;
     padding: 0;
 }
@@ -41,9 +42,20 @@ header nav {
 header nav a{
     color: #ffffff;
     text-decoration: none;
-    font-size: 24px;
+    font-size: 25px;
     background: transparent;
-    padding: 0px 120px;
+    padding: 0px 115px;
+    transition: 0.3s ease-out;
+    
+}
+
+header nav a:hover{
+    color: #ffffff;
+    background: #00000023;
+    transition: 0.3s ease-out;
+    border-radius: 7px;
+    padding: 0px 160px;
+
     
 }
 
@@ -57,9 +69,10 @@ header nav a{
 }
 .coluna50 img{
     float: left;
-    width: 43%;
+    width: 40%;
     background: transparent;
     margin: 20px;
+    border-radius: 20px;
     
 
 }
@@ -87,15 +100,28 @@ header nav a{
 }
 
 .intro img{
+    margin: 18px;
     display: inline;
-    text-align: center;
-    width: 480px;
+    justify-items: center;
+    width: 447px;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+
 }
+
+.intro img:hover{
+    display: inline;
+    justify-items: center;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+}
+
 
 .intro p{
     margin: 30px 90px;
     padding: 30px;
-    font-size: 20px;
+    font-size: 25px;
     background-color: #1ba0a9;
     color: #ffffff;
     border-radius: 10px;
