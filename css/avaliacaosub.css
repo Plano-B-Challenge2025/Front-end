@@ -126,7 +126,7 @@ h1{
     font-size: 1rem;
     cursor: pointer;
     text-align: center;
-    
+    gap: 40px;
   }
 
   button:hover {
@@ -136,12 +136,17 @@ h1{
     text-align: center;
   }
 
-  footer p{
-    padding-bottom: 60px;
+.opiniao {
+  margin-bottom: 80px;
+}
+
+  footer {
     background-color: #207fc1;
     color: #ffffff;
     text-align: center;
+    padding: 20px;
     
 }
+
 
  

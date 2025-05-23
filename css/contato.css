@@ -137,3 +137,14 @@ section p{
     border-radius: 10px;
     box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 }
+
+textarea{
+    border-radius: 10px;
+    border: none;
+    padding: 50px;
+}
+
+textarea::placeholder{
+    color: black;
+    font-size: 14px;
+}
