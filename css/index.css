@@ -99,3 +99,108 @@ footer{
     text-align: center;
 }
 
+/**************responsividade**************/
+
+@media ( min-width:600px ){
+    header nav{
+        margin-top: 20px;
+    }
+    
+    header nav a{
+            font-size: 24px;
+            padding: 20px;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 100px;
+        flex-direction: row;
+        
+    }
+
+}
+
+@media ( min-width:768px ){
+    header nav{
+        margin-top: 20px;
+    }
+    
+    header nav a{
+        font-size: 24px;
+        padding: 40px;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 100px;
+        flex-direction: row;
+        
+    }
+
+}
+
+@media ( min-width:992px ){
+    header nav{
+        margin-top: 20px;
+    }
+    
+    header nav a{
+        font-size: 24px;
+        padding: 70px;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 100px;
+        flex-direction: row;
+        
+    }
+    .coluna50 p{
+        font-size: 28px;
+    }
+    .coluna50 img{
+        width: 300px;
+    }
+
+}
+
+@media ( min-width:1300px ){
+    header nav{
+        margin-top: 20px;
+    }
+    
+    header nav a{
+        font-size: 29px;
+        padding: 90px;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 100px;
+        flex-direction: row;
+        
+    }
+    .coluna50 p{
+        font-size: 33px;
+    }
+    .coluna50 img{
+        width: 450px;
+    }
+
+}
