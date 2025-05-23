@@ -23,3 +23,115 @@ body{
     height: 140px;
 }
 /******************/
+
+header{
+    margin-bottom: 100px;
+}
+
+header nav {
+    text-align: center;
+    background: linear-gradient(0deg,rgba(27, 160, 169, 1) 0%, rgba(32, 127, 193, 1) 100%);
+    padding: 36px;
+}
+
+header nav a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 25px;
+    background: transparent;
+    padding: 0px 115px;
+    transition: 0.3s ease-out;
+    
+}
+
+header nav a:hover{
+    color: #ffffff;
+    background: #00000023;
+    transition: 0.3s ease-out;
+    border-radius: 7px;
+    padding: 0px 160px;
+
+    
+}
+
+
+h1{
+    text-align: center;
+    background-color: #1ba0a9;
+    color: #ffffff;
+    padding: 10px;
+    margin: 10px 650px;
+    border-radius: 7px;      
+}
+
+.entrar{
+    display: flex;
+    flex-direction: column;
+    background-color: #1ba0a9;
+    margin: 0 auto;
+    text-align: center;
+    padding: 50px;
+    border: #1ba0a9;
+    border-radius: 6px;
+    gap: 20px;
+    width: 27%;
+    
+}
+input{
+    display: block;
+    border: #1ba0a9;
+    border-radius: 6px;
+    margin: 0 auto;
+    font-size: 20px;
+    width: 90%;
+    height: 35px;
+    padding: 10px;
+    float: left;
+    
+}
+
+input::placeholder{
+    color: black;
+    position: fixed;
+
+}
+
+.enviar{
+    display: block;
+    border-radius: 6px;
+    width: 23%;
+    height: 35px;
+    margin: 0 auto;
+    border: #1ba0a9;
+    background-color: #9af8ff;
+    color: #0d5e64;
+    font-size: 20px;
+
+}
+
+.enviar:hover{
+    background-color: #7abec3;
+    color: #093b3e;
+
+}
+
+form{
+    margin-bottom: 90px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #207fc1;
+    color: #ffffff;
+    text-align: center;
+}
+
+section p{
+    text-align: center;
+    margin: 80px;
+    font-size: 26px;
+    background-color: #207fc1;
+    padding: 40px;
+    color: #ffffff;
+    border-radius: 10px;
+}

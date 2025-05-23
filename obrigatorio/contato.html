@@ -10,7 +10,7 @@
 
 <body>
     <header>
-        <nav>
+        <div>
             <div class="banner"> 
             <img class="logo2" src="../img/hc-logo.png" alt="">
             <img class="logo1" src="../img/fmusp-logo.png" alt="">
@@ -24,12 +24,29 @@
         </nav>
     </header>
     <main>
+        <section>
+            <p>Envie seu numero e seu email para poderentrar em contato e solicitar suas duvidas e pendências!</p>
+            <div>
+                <form>
+                    <div class="entrar">
+                        <!-- <label for="idNome">Nome</label> -->
 
+                        <input for="idNumero" type="text" name="numero" id="idNumero" placeholder="Numero:" required maxlength="11">
 
+                        <!-- <label for="idCpf">CPF</label>  -->
+                        <input for="idEmail" type="email" name="email" id="idEmail" placeholder="email:" required maxlength="50">                
+
+                        <input for="idDuvida" type="text" name="duvida" id="idDuvida" placeholder="Escreva aqui:" required maxlength="500">                
+                        <button class="enviar">Enviar</button>
+
+                    </div>
+                </form>
+            </div>
+        </section>
 
     </main>
     <footer>
-        
+        <p>Produzido por PlanoB • Copyright © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
     </footer>
 </body>
 
