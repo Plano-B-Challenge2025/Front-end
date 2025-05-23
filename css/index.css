@@ -68,6 +68,7 @@ header nav a:hover{
     border-radius: 15px;
     padding: 5%;
     margin: 88px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 
 }
 .coluna50 img{

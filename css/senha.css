@@ -49,6 +49,7 @@ form{
     border-radius: 6px;
     gap: 20px;
     width: 27%;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
     
 }
 input{
@@ -80,6 +81,7 @@ input::placeholder{
     background-color: #9af8ff;
     color: #0d5e64;
     font-size: 20px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 
 }
 
@@ -101,6 +103,7 @@ input::placeholder{
     font-size: 23px;
     text-decoration: none;
     padding: 12px 18px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
     
 }
 
@@ -133,12 +136,14 @@ footer{
     text-decoration: none;
     padding: 12px 18px;
     transition: 0.3s ease-out;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 }
 
 .menu a:hover{
     transition: 0.3s ease-out;
     transform: scale(1.1);
     font-size: 28px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 
 }
 

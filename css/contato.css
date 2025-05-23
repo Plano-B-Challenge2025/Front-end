@@ -75,6 +75,7 @@ h1{
     border-radius: 6px;
     gap: 20px;
     width: 27%;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
     
 }
 input{
@@ -134,4 +135,5 @@ section p{
     padding: 40px;
     color: #ffffff;
     border-radius: 10px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 }

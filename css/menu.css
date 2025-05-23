@@ -2,7 +2,7 @@ body {
     font-family: 'Exo', sans-serif;
       margin: 0;
       padding: 0;
-      background: #f5f5f5;
+      
     }
 
 header nav a{
@@ -104,7 +104,7 @@ header nav a img{
       margin: 30px;
       text-align: center;
       border-radius: 8px;
-      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
       cursor: pointer;
       text-decoration: none;
     }
@@ -124,13 +124,14 @@ header nav a img{
     }
 
     .consulta {
-      background: linear-gradient(to right, #1aa3a3, #007f7f);
+      background: linear-gradient(0deg,rgba(27, 160, 169, 1) 0%, rgba(32, 127, 193, 1) 100%);
       color: white;
       padding: 20px;
       border-radius: 10px;
       margin-top: 30px;
       width: 100%;
       max-width: 400px;
+      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
     }
 
     .consulta h3 {

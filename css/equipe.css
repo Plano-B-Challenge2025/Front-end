@@ -65,6 +65,7 @@ header nav a:hover{
     border-radius: 15px;
     padding: 5%;
     margin: 88px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 
 }
 .coluna50 img{
@@ -106,6 +107,7 @@ header nav a:hover{
     width: 447px;
     border-radius: 20px;
     transition: 0.3s ease-out;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 
 }
 
@@ -115,6 +117,7 @@ header nav a:hover{
     border-radius: 20px;
     transition: 0.3s ease-out;
     transform: scale(1.1);
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 }
 
 
@@ -126,6 +129,7 @@ header nav a:hover{
     color: #ffffff;
     border-radius: 10px;
     text-align: center;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 }
 
 footer{

@@ -24,6 +24,26 @@ body{
     height: 140px;
 }
 
+header nav a{
+    text-decoration: none;
+    color: black;
+    margin-bottom: 80%;
+    font-size: 28px;
+    transition: 0.3s ease-in-out;
+
+}
+
+header nav a:hover{
+    font-size: 30px;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+
+}
+
+header nav a img{
+    width: 40px;
+}
+
 h1{
     
     text-align: center;
@@ -42,14 +62,17 @@ h1{
 .block {
   background: linear-gradient(0deg,rgba(27, 160, 169, 1) 0%, rgba(32, 127, 193, 1) 100%);
   padding: 30px 50px;
-  margin: 90px 50px 162px 50px; 
+  margin: 90px 50px 190px 50px; 
   text-align: center;
   border-radius: 10px;
   color: #ffffff;
+  transition: 0.3s ease-out;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 }
 
 .block:hover {
-  
+  transition: 0.3s ease-out;
+  transform: scale(1.1);
 }
 
 .block a{
