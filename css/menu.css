@@ -40,141 +40,347 @@ header nav a img{
 }
 
 .logo2{
-    height: 140px;
+  height: 140px;
 }
-
-    .container {
-      display: flex;
-      padding: 30px;
-      gap: 50px;
+  .container {
+    display: flex;
+    padding: 30px;
+    gap: 50px;
+    margin-left: 100px;
+  }
+  .perfil {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  .foto-perfil {
+    width: 400px;
+    height: 400px;
+    background: #ddd;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    color: #888;
+  }
+  .info {
+    text-align: left;
+  }
+  .info label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+  }
+  .info input {
+    width: 200px;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: none;
+    border-bottom: 1px solid #aaa;
+    background: transparent;
+  }
+  .botoes {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);  
+      gap: 10px; 
       margin-left: 100px;
-    }
-
-    .perfil {
+   
+  }
+  .botao {
+    background: #1aa3a3;
+    color: white;
+    padding: 10px ;
+    margin: 30px;
+    text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
+    cursor: pointer;
+    text-decoration: none;
+  }
+  .botao a{
       display: flex;
       flex-direction: column;
-      align-items: center;
-      gap: 20px;
-    }
-
-    .foto-perfil {
-      width: 400px;
-      height: 400px;
-      background: #ddd;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      font-size: 50px;
-      color: #888;
-    }
-
-    .info {
-      text-align: left;
-    }
-
-    .info label {
-      display: block;
-      margin-bottom: 5px;
-      font-weight: bold;
-    }
-
-    .info input {
-      width: 200px;
-      padding: 5px;
-      margin-bottom: 10px;
-      border: none;
-      border-bottom: 1px solid #aaa;
-      background: transparent;
-    }
-
-    .botoes {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);  
-        gap: 10px; 
-        margin-left: 100px;
-     
-
-    }
-
-    .botao {
-      background: #1aa3a3;
-      color: white;
-      padding: 10px ;
-      margin: 30px;
-      text-align: center;
-      border-radius: 8px;
-      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
-      cursor: pointer;
       text-decoration: none;
-    }
-    .botao a{
-        display: flex;
-        flex-direction: column;
-        text-decoration: none;
-        color: #fff;
-        text-align: center;
-        width: 80px;
-        padding: 30px 40px;
-        
-    } 
-
-    .botao:hover {
-      background: #178080;
-    }
-
-    .consulta {
-      background: linear-gradient(0deg,rgba(27, 160, 169, 1) 0%, rgba(32, 127, 193, 1) 100%);
-      color: white;
-      padding: 20px;
-      border-radius: 10px;
-      margin-top: 30px;
-      width: 100%;
-      max-width: 400px;
-      box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
-    }
-
-    .consulta h3 {
-      margin: 0 0 10px 0;
-    }
-
-    .consulta a {
       color: #fff;
-      text-decoration: underline;
-    }
+      text-align: center;
+      width: 80px;
+      padding: 30px 40px;
+      
+  } 
+  .botao:hover {
+    background: #178080;
+  }
+  .consulta {
+    background: linear-gradient(0deg,rgba(27, 160, 169, 1) 0%, rgba(32, 127, 193, 1) 100%);
+    color: white;
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 30px;
+    width: 100%;
+    max-width: 400px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
+  }
+  .consulta h3 {
+    margin: 0 0 10px 0;
+  }
+  .consulta a {
+    color: #fff;
+    text-decoration: underline;
+  }
+  .consulta-info {
+    margin-top: 15px;
+  
+  }
+  .consulta .botoes-consulta {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .consulta button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+    color: white;
+  }
+  .consulta .feita {
+    background: #28a745;
+  }
+  .consulta .cancelar {
+    background: #dc3545;
+  }
+  footer {
+      padding: 20px;
+      background-color: #207fc1;
+      color: #ffffff;
+      text-align: center;
+  }
+/**************responsividade**************/
 
-    .consulta-info {
-      margin-top: 15px;
+@media ( min-width:600px ){
+  header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+
+
+
+  .container {
+    display: block;
+    padding: 30px;
+    gap: 50px;
+    margin-left: 10px;
+  }
+
+  .botoes {
+    display: block;
+    margin: 0 auto;
+    /* grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(2, auto);  */
+    gap: 10px; 
+    text-align: center;
     
-    }
+  
+  }
+  .botao {
+    padding: 30px ;
+    margin: 20px 150px 20px 150px;
+    
+  }
+  .consulta{
+    display: block;
+    margin: 0 auto;
+  }
+}
 
-    .consulta .botoes-consulta {
-      margin-top: 20px;
-      display: flex;
-      justify-content: space-between;
-    }
+@media ( min-width:768px ){
+  header nav{
+    margin-top: 20px;
+  }
 
-    .consulta button {
-      padding: 10px 20px;
-      border: none;
-      border-radius: 6px;
-      cursor: pointer;
-      font-weight: bold;
-      color: white;
-    }
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
 
-    .consulta .feita {
-      background: #28a745;
-    }
+  .container {
+    display: block;
+    padding: 30px;
+    gap: 30px;
+    margin-left: 10px;
+  }
 
-    .consulta .cancelar {
-      background: #dc3545;
-    }
+  .botoes {
+    display: block;
+    margin: 0 auto;
+    /* grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(2, auto);  */
+    gap: 10px; 
+    text-align: center;
+    
+  
+  }
+  .botao {
+    padding: 30px ;
+    margin: 20px 230px 20px 230px;
+    
+  }
+  .consulta{
+    display: block;
+    margin: 0 auto;
+  }
+}
 
-    footer {
-        padding: 20px;
-        background-color: #207fc1;
-        color: #ffffff;
-        text-align: center;
-    }
+@media ( min-width:992px ){
+  header nav{
+    margin-top: 20px;
+  }
 
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .container {
+    display: block;
+    padding: 30px;
+    gap: 30px;
+    margin-left: 10px;
+  }
+  .container img, .foto-perfil{
+    width: 600px;
+    height: 600px;
+  }
+
+  .info label {
+    font-size: 30px;
+  }
+
+  .info input {
+    font-size: 30px;
+  }
+  
+
+  .botoes {
+    display: block;
+    margin: 0 auto;
+    /* grid-template-columns: repeat(1, 1fr); 
+    grid-template-rows: repeat(2, auto);  */
+    gap: 10px; 
+    text-align: center;
+    
+  
+  }
+  .botao {
+    padding: 30px ;
+    margin: 20px 280px 20px 280px;
+    
+  }
+
+  .botao img{
+    width: 200px;
+    height: 200px;
+  }
+
+  .botao a{
+    font-size: 40px;
+  }
+  .consulta {
+    padding: 40px;
+    margin-top: 50px;
+    width: 100%;
+    max-width: 700px;
+  }
+  .consulta h3 {
+    margin: 0 0 0px 0;
+  }
+  .consulta a {
+    font-size: 30px;
+  }
+  .consulta-info {
+    margin-top: 15px;
+  
+  }
+  .consulta .botoes-consulta {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  .consulta button {
+    padding: 30px 40px;
+    font-size: 30px;
+    
+  }
+  .consulta p{
+    font-size: 30px;
+  }
+}
+
+@media ( min-width:1300px ){
+  header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .container {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    margin-left: 10px;
+  }
+  .perfil img{
+    width: 300px;
+    height: 300px;
+    gap: 20px;
+  }
+
+  .foto-perfil {
+    width: 400px;
+    height: 400px;
+  
+  }
+
+  .botoes {
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    gap: 10px; 
+    text-align: center;
+    
+  
+  }
+  .botao {
+    padding: 20px 30px;
+    margin: 10px 60px 20px 60px;
+    text-align: center;
+  }
+
+  .botao img{
+    width: 80px;
+    height: 80px;
+    
+  }
+
+  .botao a{
+    font-size: 23px;
+
+
+  }
+
+  .consulta{
+    display: block;
+    margin: 0 auto;
+  }
+}

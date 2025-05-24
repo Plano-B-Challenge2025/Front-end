@@ -79,3 +79,124 @@ footer{
     color: #ffffff;
     text-align: center;
 }
+
+
+/**************responsividade**************/
+
+@media ( min-width:600px ){
+
+header nav{
+    margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 20px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 110px;
+        
+    }
+
+
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+}
+
+@media ( min-width:768px ){
+
+header nav{
+    margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 40px;
+        
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 110px;
+        
+    }
+
+
+    .container {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 80px;
+    }
+
+}
+
+@media ( min-width:992px ){
+
+header nav{
+    margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 60px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 110px;
+        
+    }
+
+
+    .container {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      grid-template-rows: repeat(2, auto);
+      gap: 10px;
+    }
+
+}
+
+@media ( min-width:1300px ){
+
+header nav{
+    margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 100px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 160px;
+        
+    }
+
+
+    .container {
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(2, auto);
+      margin: 100px 20px;
+    }
+
+}

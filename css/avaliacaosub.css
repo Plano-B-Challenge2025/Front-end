@@ -147,6 +147,264 @@ h1{
     padding: 20px;
     
 }
+/**************responsividade**************/
+@media (min-width: 600px) {
 
+  header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10px;
+    padding: 10px 100px;
+    font-size: 30px
+  }
+
+  .emotions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    justify-content: space-evenly;
+    gap: 40px; 
+    margin: 40px 0;
+    padding: 30px;
+  }
+
+  .emotion {
+    width: 100px;
+    height: 100px;
+    padding: 20px; 
+    margin: 0 20px;
+  }
+
+  .emotion img {
+    padding: 10px; 
+    width: 60px;
+    height: 60px;
+  }
+
+  textarea {
+    width: 50%;
+    height: 120px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 15px 50px;
+    font-size: 1.2rem;
+  }
+
+  .banner {
+    padding: 0 80px; 
+  }
+
+  .logo1 {
+    height: 100px;
+  }
+
+  .logo2 {
+    height: 160px;
+  }
+
+}
+
+@media (min-width: 768px) {
+
+  header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10px;
+    padding: 10px 100px;
+    font-size: 30px
+  }
+
+  .emotions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    justify-content: space-evenly;
+    gap: 40px; 
+    margin: 40px 0;
+    padding: 50px;
+  }
+
+  .emotion {
+    width: 150px;
+    height: 150px;
+    padding: 20px; 
+    margin: 0 20px;
+  }
+
+  .emotion img {
+    padding: 10px; 
+    width: 80px;
+    height: 80px;
+  }
+
+  textarea {
+    width: 60%;
+    height: 180px;
+    font-size: 1.2rem;
+  }
+
+  button {
+    padding: 15px 50px;
+    font-size: 1.2rem;
+  }
+
+  .banner {
+    padding: 0 80px; 
+  }
+
+
+}
+
+@media (min-width: 992px) {
+
+  header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10px;
+    padding: 10px 150px;
+    font-size: 37px
+  }
+
+  .emotions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    justify-content: space-evenly;
+    gap: 40px; 
+    margin: 60px 0;
+    padding: 80px;
+  }
+
+  .emotion {
+    width: 200px;
+    height: 200px;
+    padding: 40px; 
+    margin: 0 20px;
+  }
+
+  .emotion img {
+    padding: 10px; 
+    width: 100px;
+    height: 100px;
+  }
+
+  textarea {
+    width: 80%;
+    height: 200px;
+    font-size: 30px;
+  }
+
+  button {
+    padding: 20px 70px;
+    font-size: 1.2rem;
+  }
+
+  .banner {
+    padding: 0 80px; 
+  }
+
+
+}
+
+@media (min-width: 1300px) {
+
+  header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10px;
+    padding: 10px 150px;
+    font-size: 37px
+  }
+
+  .emotions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    justify-content: space-evenly;
+    gap: 40px; 
+    margin: 60px 0;
+    padding: 80px;
+  }
+
+  .emotion {
+    width: 250px;
+    height: 250px;
+    padding: 60px; 
+    margin: 0 20px;
+  }
+
+  .emotion img {
+    padding: 10px; 
+    width: 200px;
+    height: 200px;
+  }
+
+  h3{
+    font-size: 35px;
+  }
+
+  textarea {
+    width: 90%;
+    height: 300px;
+    font-size: 35px;
+  }
+
+  button {
+    padding: 60px 70px;
+    font-size: 37px;
+  }
+
+  .banner {
+    padding: 0 80px; 
+  }
+
+
+}
 
  

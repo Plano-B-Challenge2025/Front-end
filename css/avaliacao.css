@@ -82,8 +82,170 @@ h1{
 }
 
 footer {
-        padding: 20px;
-        background-color: #207fc1;
-        color: #ffffff;
-        text-align: center;
+    padding: 20px;
+    background-color: #207fc1;
+    color: #ffffff;
+    text-align: center;
+}
+
+@media ( min-width:600px ){
+    header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 80px;
+        font-size: 18px
     }
+
+.container {
+  display: block;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    padding: 20px 30px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    margin: 10px 170px;
+}
+
+}
+
+@media ( min-width:768px ){
+    header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 80px;
+        font-size: 18px
+    }
+
+.container {
+  display: block;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(2, auto); 
+    padding: 20px 30px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 60px;
+    margin: 10px 170px;
+}
+
+}
+
+@media ( min-width:992px ){
+    header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 100px;
+        font-size: 30px
+    }
+
+.container {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(1, auto); 
+    padding: 20px 30px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    padding: 10%;
+    margin: 10px 100px 52px;
+}
+
+.block img{
+    width: 150px;
+    height: 150px;
+}
+
+}
+
+@media ( min-width:1300px ){
+    header nav{
+    margin-top: 20px;
+  }
+
+  header nav a{
+    font-size: 24px;
+    padding: 20px;
+  }
+  
+h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 10px 100px;
+        font-size: 30px
+    }
+
+.container {
+    display: grid;
+    margin: 10px;
+    grid-template-columns: repeat(2, 1fr); 
+    grid-template-rows: repeat(1, auto); 
+    padding: 20px 30px;
+}
+
+.block{
+    display: flex;
+    flex-direction: column;
+    padding: 16%;
+    margin: 10px 100px 52px;
+}
+
+.block img{
+    width: 150px;
+    height: 150px;
+}
+
+.block a{
+    font-size: 30px;
+}
+
+}

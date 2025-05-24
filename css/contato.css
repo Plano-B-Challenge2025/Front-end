@@ -64,6 +64,10 @@ h1{
     border-radius: 7px;      
 }
 
+form{
+    margin-bottom: 40px;
+}
+
 .entrar{
     display: flex;
     flex-direction: column;
@@ -107,6 +111,7 @@ input::placeholder{
     background-color: #9af8ff;
     color: #0d5e64;
     font-size: 20px;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
 
 }
 
@@ -114,10 +119,6 @@ input::placeholder{
     background-color: #7abec3;
     color: #093b3e;
 
-}
-
-form{
-    margin-bottom: 90px;
 }
 
 footer{
@@ -171,113 +172,18 @@ textarea::placeholder{
         padding: 20px 90px;
         
     }
-    .entrar {
-        padding: 70px 200px;
-        
-    }
 
-    input{
-        padding: 10px 70px;
-    }
-
-
-    textarea{
-        padding: 70px 100px;
-        
-    }
-    button{
-        padding: 20px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-}
-@media ( min-width:768px ){ 
-    
-    
-    header nav{
-    margin-top: 20px;
-    }
-
-    header nav a{
-        font-size: 24px;
-        padding: 40px;
-    }
-    h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
+    .enviar{
+        display: block;
+        height: 35px;
         margin: 0 auto;
-        width: 10px;
-        padding: 20px 90px;
-        
-    }
-    .entrar {
-        padding: 70px 200px;
-        
-    }
-
-    input{
-        padding: 10px 70px;
-    }
-
-
-    textarea{
-        padding: 70px 100px;
-        
-    }
-    button{
-        padding: 20px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        font-size: 20px;
+        width: 400px;
+        padding: 8px;
     }
     
+    section p{
+        font-size: 25px;
+    }
 
 }
-@media ( min-width:992px ){ 
-    
-    
-    header nav{
-    margin-top: 20px;
-    }
-
-    header nav a{
-        font-size: 24px;
-        padding: 40px;
-    }
-    h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 10px;
-        padding: 20px 90px;
-        
-    }
-    .entrar {
-        padding: 70px 200px;
-        
-    }
-
-    input{
-        padding: 10px 70px;
-    }
-
-
-    textarea{
-        padding: 70px 100px;
-        
-    }
-    button{
-        padding: 20px 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-    
-
-}
-

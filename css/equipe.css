@@ -139,3 +139,161 @@ footer{
     text-align: center;
     
 }
+
+/**************responsividade**************/
+
+@media ( min-width:600px ){
+    header nav{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 20px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 80px;
+        
+    }
+    .intro img{
+        display: block;
+        margin: 0 auto;
+        gap: 30px;
+        width: 300px;
+        
+    }
+    .intro p, .coluna50 p{
+        font-size: 20px;
+    }
+
+    .texto h2{
+        font-size: 20px;
+    }
+    .coluna50 img{
+        width: 300px;
+    }
+
+
+}
+
+@media ( min-width:768px ){
+    header nav{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 40px;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 20px;
+        padding: 20px 80px;
+        
+    }
+    .intro img{
+        display: block;
+        margin: 0 auto;
+        gap: 30px;
+        width: 480px;
+        
+    }
+
+    .intro p, .coluna50 p{
+        font-size: 34px;
+    }
+    .texto h2{
+        font-size: 30px;
+    }
+    .coluna50 img{
+        width: 490px;
+    }
+}
+
+@media ( min-width:992px ){
+    header nav{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header nav a{
+        font-size: 30px;
+        padding: 47px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 20px;
+        padding: 20px 80px;
+        
+    }
+    .intro img{
+        display: block;
+        margin: 0 auto;
+        gap: 30px;
+        width: 680px;
+        
+    }
+    .intro p, .coluna50 p{
+        font-size: 35px;
+    }
+    .texto h2{
+        font-size: 40px;
+    }
+    .coluna50 img{
+        width: 700px;
+    }
+
+
+}
+
+@media ( min-width:1300px ){
+    header nav{
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+
+    header nav a{
+        font-size: 37px;
+        padding: 50px;
+    }
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 20px;
+        padding: 20px 80px;
+        
+    }
+    .intro img{
+        display: block;
+        margin: 0 auto;
+        gap: 30px;
+        width: 680px;
+        
+    }
+    .intro p, .coluna50 p{
+        font-size: 40px;
+    }
+    .texto h2{
+        font-size: 50px;
+    }
+    .coluna50 img{
+        width: 970px;
+    }
+
+}
