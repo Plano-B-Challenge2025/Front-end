@@ -37,7 +37,7 @@ h1{
 header nav {
     text-align: center;
     background: linear-gradient(0deg,rgba(27, 160, 169, 1) 0%, rgba(32, 127, 193, 1) 100%);
-    padding: 36px;
+    padding: 25px;
 }
 
 header nav a{
@@ -45,9 +45,9 @@ header nav a{
     text-decoration: none;
     font-size: 25px;
     background: transparent;
-    padding: 0px 110px;
-    transition: 0.3s ease-out;
-    
+    padding: 7px 100px;
+    margin: 10px;
+    transition: 0.3s ease-out;   
 }
 
 header nav a:hover{
@@ -55,8 +55,7 @@ header nav a:hover{
     background: #00000023;
     transition: 0.3s ease-out;
     border-radius: 7px;
-    padding: 0px 160px;
-
+    padding: 10px 130px;
     
 }
 
@@ -102,13 +101,14 @@ footer{
 /**************responsividade**************/
 
 @media ( min-width:600px ){
+    
     header nav{
         margin-top: 20px;
     }
     
     header nav a{
-            font-size: 24px;
-            padding: 20px;
+        font-size: 20px;
+        padding: 20px 20px;
     }
 
     h1{
@@ -154,7 +154,7 @@ footer{
     
     header nav a{
         font-size: 24px;
-        padding: 70px;
+        padding: 60px;
     }
 
     h1{
@@ -183,7 +183,7 @@ footer{
     
     header nav a{
         font-size: 29px;
-        padding: 90px;
+        padding: 20px 90px;
     }
 
     h1{
@@ -195,6 +195,10 @@ footer{
         padding: 10px 100px;
         flex-direction: row;
         
+    }
+
+    .coluna50{
+        margin: 130px;
     }
     .coluna50 p{
         font-size: 33px;

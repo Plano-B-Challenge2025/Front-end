@@ -24,18 +24,29 @@ body{
     height: 140px;
 }
 
-header nav a{
+  header nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+  }
+
+  header nav a{
+    white-space: nowrap;
+    font-size: 19px;
     text-decoration: none;
     color: black;
-    margin-bottom: 80%;
-    font-size: 28px;
-    transition: 0.3s ease-in-out;
-    list-style: none;
-
-}
+  }
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/super-feliz.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
+  }
 
 header nav a:hover{
-    font-size: 30px;
+    font-size: 23px;
     transition: 0.3s ease-out;
     transform: scale(1.1);
 
@@ -89,13 +100,25 @@ footer {
 }
 
 @media ( min-width:600px ){
-    header nav{
-    margin-top: 20px;
+  header nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+  }
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/super-feliz.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
   }
   
 h1{
@@ -126,126 +149,171 @@ h1{
 }
 
 @media ( min-width:768px ){
-    header nav{
-    margin-top: 20px;
+  header nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
   }
-  
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/super-feliz.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
+  }
+
 h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 10px;
-        padding: 10px 80px;
-        font-size: 18px
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10px;
+    padding: 10px 80px;
+    font-size: 18px
+}
 
 .container {
-  display: block;
-    margin: 0 auto;
+  display: grid;
+    margin: 10px;
     grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(2, auto); 
-    padding: 20px 30px;
+    grid-template-rows: repeat(1, auto); 
+    padding: 20px 20px;
 }
 
 .block{
     display: flex;
     flex-direction: column;
-    padding: 10px 60px;
-    margin: 10px 170px;
+    padding: 60px 70px;
+    margin: 10px 30px;
 }
-
+.block a{
+  font-size: 20px ;
 }
-
+.block img{
+  width: 100px;
+}
+}
 @media ( min-width:992px ){
-    header nav{
-    margin-top: 20px;
+  header nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+  }
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/super-feliz.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
   }
   
 h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 10px;
-        padding: 10px 100px;
-        font-size: 30px
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10px;
+    padding: 10px 100px;
+    font-size: 30px
+  }
 
 .container {
     display: grid;
     margin: 10px;
     grid-template-columns: repeat(2, 1fr); 
     grid-template-rows: repeat(1, auto); 
-    padding: 20px 30px;
+    padding: 20px 20px;
 }
 
 .block{
     display: flex;
     flex-direction: column;
     padding: 10%;
-    margin: 10px 100px 52px;
+    margin: 10px 120px 40px;
 }
 
 .block img{
-    width: 150px;
-    height: 150px;
+    width: 80px;
+    height: 80px;
 }
 
 }
 
 @media ( min-width:1300px ){
-    header nav{
-    margin-top: 20px;
+
+  header nav{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+  }
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/super-feliz.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
   }
   
+  
 h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 10px;
-        padding: 10px 100px;
-        font-size: 30px
-    }
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 10px;
+    padding: 10px 100px;
+    font-size: 30px
+  }
 
 .container {
-    display: grid;
-    margin: 10px;
-    grid-template-columns: repeat(2, 1fr); 
-    grid-template-rows: repeat(1, auto); 
-    padding: 20px 30px;
+  display: flex;
+
 }
 
-.block{
-    display: flex;
-    flex-direction: column;
-    padding: 16%;
-    margin: 10px 100px 52px;
+.block {
+  padding: 20px 50px;
+  margin: 90px 10px ; 
+  text-align: center;
+  transition: 0.3s ease-out;
 }
 
-.block img{
-    width: 150px;
-    height: 150px;
+.block:hover {
+  transition: 0.3s ease-out;
+  transform: scale(1.1);
 }
 
 .block a{
-    font-size: 30px;
+  font-size: 25px;
+  text-decoration: none;
+  color: #ffffff;
 }
 
+.block img{
+  width: 130px;
+  height: 130px;
+}
 }

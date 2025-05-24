@@ -44,7 +44,8 @@ header nav a{
     text-decoration: none;
     font-size: 25px;
     background: transparent;
-    padding: 0px 115px;
+    padding: 7px 100px;
+    margin: 10px;
     transition: 0.3s ease-out;
     
 }
@@ -54,7 +55,8 @@ header nav a:hover{
     background: #00000023;
     transition: 0.3s ease-out;
     border-radius: 7px;
-    padding: 0px 160px;
+    padding: 10px 130px;
+    
 
     
 }
@@ -149,8 +151,8 @@ footer{
     }
 
     header nav a{
-        font-size: 24px;
-        padding: 20px;
+        font-size: 20px;
+        padding: 20px 10px;
     }
     h1{
         display: flex;
@@ -161,6 +163,7 @@ footer{
         padding: 20px 80px;
         
     }
+
     .intro img{
         display: block;
         margin: 0 auto;
@@ -168,6 +171,12 @@ footer{
         width: 300px;
         
     }
+
+    .intro img:hover{
+        transition: 0.3s ease-out;
+        transform: scale(1.1);
+    }
+
     .intro p, .coluna50 p{
         font-size: 20px;
     }
@@ -190,7 +199,14 @@ footer{
 
     header nav a{
         font-size: 24px;
-        padding: 40px;
+        padding: 1px;
+    }
+
+    header nav a:hover{
+    transition: 0.3s ease-out;
+    border-radius: 7px;
+    padding: 10px 90px;
+    
     }
     
     h1{
@@ -211,7 +227,7 @@ footer{
     }
 
     .intro p, .coluna50 p{
-        font-size: 34px;
+        font-size: 20px;
     }
     .texto h2{
         font-size: 30px;
@@ -244,56 +260,66 @@ footer{
         display: block;
         margin: 0 auto;
         gap: 30px;
-        width: 680px;
+        width: 450px;
         
     }
     .intro p, .coluna50 p{
-        font-size: 35px;
+        font-size: 23px;
     }
     .texto h2{
-        font-size: 40px;
+        font-size: 30px;
+    }
+    .coluna50{
+        margin: 100px 180px;
     }
     .coluna50 img{
-        width: 700px;
+        display: inline;
+        text-align: center;
+        width: 480px;
     }
-
 
 }
 
 @media ( min-width:1300px ){
     header nav{
         margin-top: 20px;
-        margin-bottom: 20px;
+    }
+    
+    header nav a{
+        font-size: 25px;
+        padding: 20px 60px;
     }
 
-    header nav a{
-        font-size: 37px;
-        padding: 50px;
+    .intro{
+        text-align: center;
     }
-    h1{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        margin: 0 auto;
-        width: 20px;
-        padding: 20px 80px;
-        
-    }
+
     .intro img{
-        display: block;
-        margin: 0 auto;
-        gap: 30px;
-        width: 680px;
-        
+    margin: 18px;
+    display: inline;
+    width: 390px;
+    border-radius: 20px;
+    transition: 0.3s ease-out;
+    box-shadow: 0 6px 8px rgba(0, 0, 0, 0.258);
+
+}
+
+    .intro img:hover{
+        transition: 0.3s ease-out;
+        transform: scale(1.1);
     }
+
     .intro p, .coluna50 p{
-        font-size: 40px;
+        font-size: 30px;
     }
     .texto h2{
         font-size: 50px;
     }
-    .coluna50 img{
-        width: 970px;
+    .coluna50{
+        margin: 100px 180px;
     }
-
+    .coluna50 img{
+        width: 400px;
+    }
+    
 }

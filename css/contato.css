@@ -39,7 +39,8 @@ header nav a{
     text-decoration: none;
     font-size: 25px;
     background: transparent;
-    padding: 0px 115px;
+    padding: 7px 100px;
+    margin: 10px ;
     transition: 0.3s ease-out;
     
 }
@@ -49,8 +50,7 @@ header nav a:hover{
     background: #00000023;
     transition: 0.3s ease-out;
     border-radius: 7px;
-    padding: 0px 160px;
-
+    padding: 10px 100px;
     
 }
 
@@ -72,8 +72,7 @@ form{
     display: flex;
     flex-direction: column;
     background-color: #1ba0a9;
-    margin: 0 auto;
-    text-align: center;
+
     padding: 50px;
     border: #1ba0a9;
     border-radius: 6px;
@@ -104,9 +103,8 @@ input::placeholder{
 .enviar{
     display: block;
     border-radius: 6px;
-    width: 23%;
+    width: 23px;
     height: 35px;
-    margin: 0 auto;
     border: #1ba0a9;
     background-color: #9af8ff;
     color: #0d5e64;
@@ -152,9 +150,8 @@ textarea::placeholder{
 
 /**************responsividade**************/
 
-@media ( min-width:600px ){ 
-    
-    
+@media ( min-width:600px ){
+
     header nav{
     margin-top: 20px;
     }
@@ -173,17 +170,178 @@ textarea::placeholder{
         
     }
 
-    .enviar{
-        display: block;
-        height: 35px;
+    .entrar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
         margin: 0 auto;
+        padding: 20px 30px;
         font-size: 20px;
         width: 400px;
-        padding: 8px;
+
+    }
+
+    input{
+        width: 270px;
+
+    }
+
+    .enviar{
+        width: 100px;
     }
     
     section p{
         font-size: 25px;
+    }
+
+}
+
+@media ( min-width:768px ){
+
+    header nav{
+    margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 40px;
+    }
+
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 90px;
+        
+    }
+
+    .entrar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 50px 30px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    input{
+        width: 270px;
+
+    }
+
+    .enviar{
+        width: 100px;
+    }
+    
+    section p{
+        font-size: 25px;
+    }
+
+}
+
+@media ( min-width:992px ){
+
+    header nav{
+    margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 60px;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 90px;
+        
+    }
+
+    .entrar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 50px 30px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    input{
+        width: 290px;
+
+    }
+
+    .enviar{
+        width: 100px;
+    }
+    
+    section p{
+        font-size: 25px;
+    }
+    
+    textarea{
+        border-radius: 10px;
+        border: none;
+        padding: 90px;
+    }
+
+}
+
+@media ( min-width:1300px ){
+
+    header nav{
+    margin-top: 20px;
+    }
+
+    header nav a{
+        font-size: 24px;
+        padding: 30px 60px;
+    }
+    
+    h1{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        width: 10px;
+        padding: 20px 90px;
+        
+    }
+
+    .entrar {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+        padding: 50px 30px;
+        font-size: 20px;
+        width: 400px;
+    }
+
+    input{
+        width: 300px;
+
+    }
+
+    .enviar{
+        width: 100px;
+    }
+    
+    section p{
+        font-size: 25px;
+    }
+    
+    textarea{
+        border-radius: 10px;
+        border: none;
+        padding: 100px;
     }
 
 }
