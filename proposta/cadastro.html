@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cadastro do Paciente</title>
+  <link rel="stylesheet" href="./css/cadastro.css">
+</head>
+<body>
+
+  <header>
+    <div class="top-bar">
+      <img src="./img/hc.png" alt="Logo Hospital das Clínicas" class="logo1">
+      <img src="./img/usp.png" alt="Logo Medicina USP" class="logo2">
+    </div>
+    <div class="titulo">
+      <h1>CADASTRO DO PACIENTE</h1>
+    </div>
+  </header>
+
+  <main>
+    <section aria-labelledby="parte1">
+      <form class="formulario-do-paciente">
+        <fieldset>
+          <legend id="parte1">Cadastro do Paciente - Parte 1</legend>
+
+          <article class="cadastro-paciente">
+            <label for="nome">Nome do Paciente:</label>
+            <input type="text" id="nome" name="nome">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="cpf">CPF:</label>
+            <input type="text" id="cpf" name="cpf">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="ano">Ano de Nascimento:</label>
+            <input type="number" id="ano" name="ano" min="1900" max="2099">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="confirmar-email">Confirmar E-mail:</label>
+            <input type="email" id="confirmar-email" name="confirmar-email">
+          </article>
+        </fieldset>
+      </form>
+    </section>
+
+    <section aria-labelledby="parte2">
+      <form class="formulario-do-paciente">
+        <fieldset>
+          <legend id="parte2">Cadastro do Paciente - Parte 2</legend>
+
+          <article class="cadastro-paciente">
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="confirmar-telefone">Confirmar Telefone:</label>
+            <input type="tel" id="confirmar-telefone" name="confirmar-telefone">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="endereco">Endereço:</label>
+            <input type="text" id="endereco" name="endereco">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="nome-mae">Nome da Mãe:</label>
+            <input type="text" id="nome-mae" name="nome-mae">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="senha">Senha:</label>
+            <input type="password" id="senha" name="senha">
+          </article>
+
+          <article class="cadastro-paciente">
+            <label for="confirmar-senha">Confirmar Senha:</label>
+            <input type="password" id="confirmar-senha" name="confirmar-senha">
+          </article>
+
+          <button type="submit">Enviar</button>
+        </fieldset>
+      </form>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>Produzido por PlanoB • © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
+  </footer>
+
+  <script src="./js/cadastro.js"></script>
+</body>
+</html>
