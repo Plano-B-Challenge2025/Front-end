@@ -1,7 +1,8 @@
-const perguntas = document.querySelectorAll('.faq-item .pergunta');
+const faqs = document.querySelectorAll('.faq-item');
 
-perguntas.forEach(pergunta => {
-    pergunta.addEventListener('click', function () {
-        this.parentElement.classList.toggle('ativa');
+faqs.forEach(item => {
+    item.querySelector('.pergunta').addEventListener('click', function() {
+        faqs.forEach(el => el.classList.remove('ativa')); // Fecha todas
+        item.classList.toggle('ativa'); // Abre só a clicada
     });
 });
