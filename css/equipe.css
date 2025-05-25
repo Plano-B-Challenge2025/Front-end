@@ -15,11 +15,11 @@ body{
     padding: 0px 15px;
     border-bottom: 3px solid #8b8b8b;
 }
-.logo1{
+#logo1{
     height: 80px;
 }
 
-.logo2{
+#logo2{
     height: 140px;
 }
 /******************/
