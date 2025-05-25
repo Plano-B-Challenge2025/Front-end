@@ -41,7 +41,7 @@
 .seta-voltar {
   width: 24px;
   height: 24px;
-  background: url("../img/seta-icone.png") no-repeat center;
+  background: url("../img/seta.png") no-repeat center;
   background-size: contain;
   display: inline-block;
 }
@@ -142,12 +142,12 @@ main {
   background-color: #d1d1d1;
 }
 
-.footer {
-  background-color: #207fc1;
-  color: #fff;
-  text-align: center;
-  padding: 15px;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
+  .footer {
+    background-color: #207fc1;
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    position: fixed;
+    bottom: 0;
+   width: 100%;
+ }
