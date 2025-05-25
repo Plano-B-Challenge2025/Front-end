@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Exame</title>
+  <link rel="stylesheet" href="./css/exame.css" />
+  <script src="./js/exame.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <img src="./img/hc.png" alt="Logo Hospital das Clínicas" class="logo1" />
+      <img src="./img/usp.png" alt="Logo Medicina USP" class="logo2" />
+    </div>
+  </header>
+
+  <nav class="navegacao" aria-label="Navegação principal">
+    <div class="voltar" role="button" tabindex="0" id="btn-voltar" aria-label="Voltar para a tela principal">
+      <span class="seta-voltar"></span>
+      <span class="texto-voltar">Voltar para a tela principal</span>
+    </div>
+    <div class="botoes-centro" role="tablist" aria-label="Seleção de exames">
+      <button class="botao ativo" role="tab" aria-selected="true" aria-controls="exame-laboratorio" id="tab-laboratorio">
+        <img src="img/vidraria-lab.png" class="icone" alt="Ícone Exame Laboratório" />
+        Exame Laboratório
+      </button>
+      <button class="botao" role="tab" aria-selected="false" aria-controls="exame-imagem" id="tab-imagem">
+        <img src="./img/icon-img.png" class="icone" alt="Ícone Imagem" />
+        Exame Imagem
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <article class="cartao ativo" id="exame-laboratorio" role="tabpanel" aria-labelledby="tab-laboratorio">
+      <header class="cabecalho">
+        <div class="foto-icon">
+          <img src="./img/icon-dr.png" alt="Ícone de Dra." />
+        </div>
+        <div>
+          <h2 class="nome">Dr. Roberta Lima de Almeida </h2>
+          <span class="info-medico">Patologista Clínico</span>
+        </div>
+      </header>
+      <section>
+        <p class="info">
+          Resultado do exame<br />
+          <strong>Hemoglobina Glicada A1C</strong>
+        </p>
+        <time class="data" datetime="2025-02-26">26/02/2025</time>
+        <div class="caixa-link">
+          <a href="https://www.link-da-pagina-do-exame" target="_blank" rel="noopener noreferrer">
+            https://www.link-da-pagina-do-exame
+          </a>
+        </div>
+      </section>
+    </article>
+
+    <article class="cartao" id="exame-imagem" role="tabpanel" aria-labelledby="tab-imagem" hidden>
+      <header>
+        <h2 class="titulo-exame">Chapa da patela</h2>
+        <p class="nome-medico">Dr. Carlos Eduardo da Silva</p>
+        <time class="data" datetime="2025-02-05">05/02/2025</time>
+      </header>
+      <section>
+        <p class="preview">Link da imagem com pré-visualização</p>
+        <div class="caixa-link">
+          <a href="https://www.link-do-documento" target="_blank" rel="noopener noreferrer">
+            https://www.link-do-documento
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Produzido por PlanoB • © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
+  </footer>
+</body>
+</html>
