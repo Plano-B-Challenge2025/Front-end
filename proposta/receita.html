@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Receitas</title>
+  <link rel="stylesheet" href="css/receita.css" />
+  <script src="js/receita.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <img src="img/hc.png" alt="Logo Hospital das Clínicas" class="logo1" />
+      <img src="img/usp.png" alt="Logo Medicina USP" class="logo2" />
+    </div>
+  </header>
+
+  <nav class="navegacao">
+    <div class="voltar" id="btn-voltar">
+      <span class="seta-voltar"></span>
+      <span class="texto-voltar">Voltar para a tela principal</span>
+    </div>
+    <div class="botoes-centro">
+      <button class="botao ativo" id="tab-ativa">  
+        <img src="img/icon-positivo.png" class="icone" alt="Ícone Receita Ativa" />
+        Receita Ativa
+      </button>
+      <button class="botao" id="tab-inativa">  
+        <img src="img/icon-negativo.png" class="icone" alt="Ícone Receita Inativa" />
+        Receita Inativa
+      </button>
+    </div>
+  </nav>
+
+  <main>
+    <article class="cartao ativo" id="receita-ativa">
+      <header class="cabecalho">
+        <div class="foto-icon">
+          <img src="img/icon-dr.png" alt="Ícone de Dr." />
+        </div>
+        <div>
+          <h2 class="nome">Dr. Eduardo Costa Santos</h2>
+          <span class="info-medico">Clínico Geral</span><br />
+          <span class="info-medico">Prescrição Digital</span>
+          <time class="data" datetime="2025-03-29">29/03/2025</time>
+        </div>
+      </header>
+      <section>
+        <div class="caixa-link">
+          <a href="https://link-da-pagina-da-receita" target="_blank" rel="noopener noreferrer">
+            https://link-da-pagina-da-receita
+          </a>
+        </div>
+      </section>
+    </article>
+
+    <article class="cartao inativo" id="receita-inativa" hidden>
+      <header class="cabecalho">
+        <div class="foto-icon">
+          <img src="img/icon-dr.png" alt="Ícone de Dra." />
+        </div>
+        <div>
+          <h2 class="nome">Dra. Amanda Ferreira Lima</h2>
+          <span class="info-medico">Clínico Geral</span><br />
+          <span class="info-medico">Prescrição Digital</span>
+          <time class="data" datetime="2025-01-31">31/01/2025</time>
+        </div>
+      </header>
+      <section>
+        <div class="caixa-link">
+          <a href="https://www.link-da-pagina-da-receita" target="_blank" rel="noopener noreferrer">
+            https://www.link-da-pagina-da-receita
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Produzido por PlanoB • © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
+  </footer>
+</body>
+</html>
