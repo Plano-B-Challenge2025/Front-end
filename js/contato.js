@@ -1,32 +1,40 @@
-//Codigo para o login.html funcionar e logar contas cadastradas
-document.getElementById('formLogin').addEventListener('submit', function (event) {
-    event.preventDefault();
+document.addEventListener("DOMContentLoaded", () => {
+    const form = document.querySelector('form');
+    const numeroInput = document.getElementById('idNumero');
+    const emailInput = document.getElementById('idEmail');
+    const comentarioInput = document.getElementById('idComentario');
 
-    const cpf = document.getElementById('idCpf').value.trim();
-    const senha = document.getElementById('idSenha').value.trim();
+    form.addEventListener('submit', (event) => {
+        event.preventDefault();
 
-    if (cpf.length !== 11) {
-        alert('CPF deve conter 11 dígitos.');
-        return;
-    }
+        const numero = numeroInput.value.trim();
+        const email = emailInput.value.trim();
+        const comentario = comentarioInput.value.trim();
 
-    if (senha.length < 8) {
-        alert('A senha deve ter pelo menos 8 caracteres.');
-        return;
-    }
-    
-    const usuarios = JSON.parse(localStorage.getItem('usuarios')) || [];
+        if (!numero || !email || !comentario) {
+            alert("Por favor, preencha todos os campos!");
+            return;
+        }
 
-    const usuarioAutenticado = usuarios.find(user => user.cpf === cpf && user.senha === senha);
+        if (comentario.length > 400) {
+            alert("O comentário deve ter no máximo 400 caracteres.");
+            return;
+        }
 
-    if (usuarioAutenticado) {
-        alert('Bem-vindo(a), ${usuarioAutenticado.nome}!');
+        const duvida = {
+            numero,
+            email,
+            comentario,
+            data: new Date().toLocaleString("pt-BR")
+        };
 
-        localStorage.setItem('usuarioLogado', JSON.stringify(usuarioAutenticado));
+        let duvidas = JSON.parse(localStorage.getItem('duvidas')) || [];
+        duvidas.push(duvida);
+        localStorage.setItem('duvidas', JSON.stringify(duvidas));
 
-        window.location.href = '../proposta/menu.html';
+        alert("Sua dúvida foi enviada com sucesso!");
 
-    } else {
-        alert('CPF ou senha incorretos. Tente novamente.');
-    }
+        // Resetar o formulário
+        form.reset();
+    });
 });

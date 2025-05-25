@@ -7,6 +7,7 @@
     <title>Contato</title>
     <link rel="stylesheet" href="../css/contato.css">
     <link rel="icon" href="../img/logo-icon.png">
+    <script src="../js/contato.js"></script>
 </head>
 
 <body>
@@ -30,17 +31,10 @@
             <div>
                 <form>
                     <div class="entrar">
-                        <!-- <label for="idNome">Nome</label> -->
-
-                        <input for="idNumero" type="text" name="numero" id="idNumero" placeholder="Numero:" required maxlength="11">
-
-                        <!-- <label for="idCpf">CPF</label>  -->
-                        <input for="idEmail" type="email" name="email" id="idEmail" placeholder="email:" required maxlength="50">                
-
-                        <textarea placeholder="Digite sua opinião aqui..."></textarea>
-                                      
-                        <button class="enviar">Enviar</button>
-
+                        <input type="text" name="numero" id="idNumero" placeholder="Numero:" required maxlength="11">
+                        <input type="email" name="email" id="idEmail" placeholder="email:" required maxlength="50">                
+                        <textarea id="idComentario" placeholder="Digite sua opinião aqui..."></textarea>                 
+                        <button class="enviar" type="submit">Enviar</button>
                     </div>
                 </form>
             </div>
