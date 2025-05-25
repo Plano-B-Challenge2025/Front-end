@@ -161,16 +161,33 @@ header nav a img{
 /**************responsividade**************/
 
 @media ( min-width:600px ){
-  header nav{
-    margin-top: 20px;
+    header nav{
+    display: block;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
   }
 
-
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/seta.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
+  }
+  header nav a:hover{
+    font-size: 21px;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
+  }
 
   .container {
     display: block;
@@ -201,13 +218,32 @@ header nav a img{
 }
 
 @media ( min-width:768px ){
-  header nav{
-    margin-top: 20px;
+    header nav{
+    display: block;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+  }
+
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/seta.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
+  }
+  header nav a:hover{
+    font-size: 21px;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
   }
 
   .container {
@@ -239,13 +275,32 @@ header nav a img{
 }
 
 @media ( min-width:992px ){
-  header nav{
-    margin-top: 20px;
+    header nav{
+    display: block;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+  }
+
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/seta.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
+  }
+  header nav a:hover{
+    font-size: 21px;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
   }
 
   .container {
@@ -324,13 +379,32 @@ header nav a img{
 }
 
 @media ( min-width:1300px ){
-  header nav{
-    margin-top: 20px;
+    header nav{
+    display: block;
+    align-items: center;
+    gap: 8px;
+    cursor: pointer;
+    margin-bottom: 10px;
   }
 
   header nav a{
-    font-size: 24px;
-    padding: 20px;
+    white-space: nowrap;
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+  }
+
+  header nav a img{
+    width: 24px;
+    height: 24px;
+    background: url("../img/seta.png") no-repeat center;
+    background-size: contain;
+    display: inline-block;
+  }
+  header nav a:hover{
+    font-size: 21px;
+    transition: 0.3s ease-out;
+    transform: scale(1.1);
   }
 
   .container {
