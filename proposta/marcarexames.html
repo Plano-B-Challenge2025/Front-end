@@ -1,26 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Marcar exames-Hospital das clínicas FMUSP</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="icon" href="../img/logo-icon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Marcar Exames</title>
+  <link rel="stylesheet" href="../css/marcarexames.css" />
+  <script src="../js/marcarexames.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <nav>
+  <header>
+    <div class="top-bar">
+      <img src="../img/hc.webp" alt="Logo Hospital das Clínicas" class="logo1" />
+      <img src="../img/fmus_.webp" alt="Logo Medicina USP" class="logo2" />
+    </div>
+  </header>  
 
-        </nav>
-    </header>
-    <main>
+  <nav class="navegacao" aria-label="Navegação principal">
+    <div class="voltar" role="button" tabindex="0" id="btn-voltar" aria-label="Voltar para a tela principal">
+      <span class="seta-voltar"></span>
+      <span class="texto-voltar">Voltar para a tela principal</span>
+    </div>
+  </nav> 
 
-    </main>
-    <footer>
-        
-    </footer>
+  <main>
+    <h1 class="titulo-centralizado">Marcar Exames</h1>
+
+    <section>
+      <form id="form-marcar-exame" action="#" method="post">
+        <label for="tipo-exame" class="label-tipo-exame">Digite o tipo de exame:</label>
+        <input type="text" id="tipo-exame" name="tipo-exame" placeholder="Ex: Hemograma, Raio-X..." required />
+        <button type="submit" id="btn-adicionar">Adicionar</button>
+      </form>
+    </section>
+
+    <section>
+      <div id="cartoes-container"></div>  
+    </section>
+  </main>  
+
+  <footer class="footer">
+    <p>Produzido por PlanoB • © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
+  </footer>
 </body>
-
 </html>

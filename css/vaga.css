@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  border-bottom: 3px solid #000000;
+}
+
+.logo1 {
+  height: 150px;
+}
+
+.logo2 {
+  height: 80px;
+}
+
+.navegacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: #fff;
+}
+
+.voltar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.seta-voltar {
+  width: 24px;
+  height: 24px;
+  background: url("../img/seta-icone.png") no-repeat center;
+  background-size: contain;
+  display: inline-block;
+}
+
+.texto-voltar {
+  white-space: nowrap;
+  font-size: 19px;
+}
+
+/* Título ajustado para ser um retângulo centralizado */
+.titulo-centralizado {
+  background-color: #1ba0a9;
+  color: white;
+  padding: 20px 20px;
+  border-radius: 6px;
+  font-size: 19px;
+  height: 60px;
+  margin: 0 auto 20px auto; 
+  display: inline-block; 
+  white-space: nowrap;
+  text-align: center;
+  position: relative;
+  top: -40px;
+}
+
+main {
+  padding: 0 40px 40px 40px; /* zero padding top pra aproximar o form do nav */
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start; /* Alinha itens à esquerda */
+}
+.cartao-azul {
+  background: linear-gradient(to bottom, #207fc1, #1ba0a9);
+  padding: 2rem;
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.cartoes-pretos {
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+.cartao-preto {
+  background: linear-gradient(to bottom, #00253e, #155155);
+  color: #fff;
+  padding: 1.5rem;
+  border-radius: 10px;
+  flex: 1 1 300px;
+  max-width: 350px;
+}
+
+input[type="date"] {
+  padding: 0.5rem;
+  font-size: 1rem;
+  border-radius: 8px;
+  border: none;
+  margin-top: 1rem;
+}
+
+.horario {
+  background: #ccc;
+  color: #000;
+  padding: 1rem;
+  border-radius: 8px;
+  margin-bottom: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.horario:hover {
+  background: #bbbbbb;
+}
+
+.horario.selecionado {
+  border: 2px solid #00f;
+  background: #e0e0e0;
+}
+
+.info-horario {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.info-horario img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #7a7a7a;
+}
+
+button {
+  background-color: #207fc1;
+  color: white;
+  border: none;
+  padding: 1rem 2rem;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: 0.3s;
+}
+
+button:disabled {
+  background: #aaa;
+  cursor: not-allowed;
+}
+
+/* Etapa final ajustes */
+.etapa-final {
+  background: linear-gradient(to bottom, #00253e, #155155);
+  padding: 2rem;
+  border-radius: 12px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 300px;
+}
+
+.etapa-final .confirmacao {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  text-align: center;
+}
+
+.etapa-final .confirmacao p {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.etapa-final img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #7a7a7a;
+}
+
+/* Tela de sucesso */
+.tela-sucesso {
+  background-color: #fff;
+  color: #222;
+  position: fixed;
+  inset: 0;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.conteudo-sucesso {
+  text-align: center;
+}
+
+.conteudo-sucesso img {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 1rem;
+}
+
+.footer {
+  background-color: #207fc1;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}

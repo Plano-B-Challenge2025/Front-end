@@ -78,6 +78,6 @@ document.addEventListener("DOMContentLoaded", () => {
     // Botão voltar
     const btnVoltar = document.getElementById("btn-voltar");
     btnVoltar.addEventListener("click", () => {
-      window.location.href = "index.html";
+      window.location.href = "./menu.html";
     });
   });

@@ -4,7 +4,7 @@ document.addEventListener("DOMContentLoaded", function () {
   if (btnVoltar) {
     btnVoltar.addEventListener("click", function () {
       // Redireciona para a página principal (ajuste o caminho se necessário)
-      window.location.href = "../menu.html"; 
+      window.location.href = "./menu.html"; 
     });
   }
 });

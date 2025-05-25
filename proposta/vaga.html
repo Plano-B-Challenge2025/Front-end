@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Vagas</title>
+  <link rel="stylesheet" href="../css/vagas.css" />
+  <script src="../js/vagas.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="top-bar">
+      <img src="../img/hc.webp" alt="Logo Hospital das Clínicas" class="logo1" />
+      <img src="../img/fmus_.webp" alt="Logo Medicina USP" class="logo2" />
+    </div>
+  </header>
+
+  <nav class="navegacao" aria-label="Navegação principal">
+    <div class="voltar" role="button" tabindex="0" id="btn-voltar" aria-label="Voltar para a tela principal">
+      <span class="seta-voltar"></span>
+      <span class="texto-voltar">Voltar para a tela principal</span>
+    </div>
+  </nav>
+
+  <main>
+    <!-- Etapa Inicial -->
+    <section class="cartao-azul" id="etapaInicial">
+      <div class="cartoes-pretos">
+        <!-- Cartão com calendário -->
+        <article class="cartao-preto calendario">
+          <label for="data">Escolha uma data:</label>
+          <input type="date" id="data" />
+        </article>
+
+        <!-- Cartão com horários -->
+        <article class="cartao-preto horarios" id="cartaoHorarios" style="display: none;">
+          <div class="horario" data-medico="Dra. Elaine Silva Tamares" data-hora="11:00" data-icone="img/dr-icone.png">
+            <div class="info-horario">
+              <img src="../img/dr-icone.png" alt="Dra. Elaine" />
+              <div>
+                <strong>11:00</strong>
+                <p>Dra. Elaine Silva Tamares<br /><span>Cardiologista</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="horario" data-medico="Dr. Gustavo Rocha Rosa" data-hora="11:30" data-icone="img/dr-icone.png">
+            <div class="info-horario">
+              <img src="../img/dr-icone.png" alt="Dr. Gustavo" />
+              <div>
+                <strong>11:30</strong>
+                <p>Dr. Gustavo Rocha Rosa<br /><span>Cardiologista</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="horario" data-medico="Dra. Elaine Silva Tamares" data-hora="12:40" data-icone="img/dr-icone.png">
+            <div class="info-horario">
+              <img src="../img/dr-icone.png" alt="Dra. Elaine" />
+              <div>
+                <strong>12:40</strong>
+                <p>Dra. Elaine Silva Tamares<br /><span>Cardiologista</span></p>
+              </div>
+            </div>
+          </div>
+          <div class="horario" data-medico="Dr. Gustavo Rocha Rosa" data-hora="13:00" data-icone="img/dr-icone.png">
+            <div class="info-horario">
+              <img src="../img/dr-icone.png" alt="Dr. Gustavo" />
+              <div>
+                <strong>13:00</strong>
+                <p>Dr. Gustavo Rocha Rosa<br /><span>Cardiologista</span></p>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+      <!-- Botão -->
+      <button id="marcarBtn" disabled>Marcar Exame</button>
+    </section>
+
+    <!-- Etapa Final -->
+    <section class="cartao-azul etapa-final" id="etapaFinal" style="display: none;">
+      <div class="confirmacao">
+        <img id="iconeFinal" src="" alt="Ícone Médico" />
+        <p id="medicoFinal"></p>
+        <p id="dataHoraFinal"></p>
+        <button id="confirmarBtn">Confirmar</button>
+      </div>
+    </section>
+  </main>
+
+  <!-- Tela de Sucesso -->
+  <section class="tela-sucesso" id="telaSucesso" style="display: none;">
+    <div class="conteudo-sucesso">
+      <img src="../img/icon-celebracao.png" alt="Ícone de celebração" />
+      <h2>Exame marcado com sucesso!</h2>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>Produzido por PlanoB • © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
+  </footer>
+</body>
+</html>
