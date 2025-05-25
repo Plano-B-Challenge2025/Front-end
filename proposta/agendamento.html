@@ -1,27 +1,87 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Agendamento-Hospital das clínicas FMUSP</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="icon" href="../img/logo-icon.png">
-    
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Agendamento</title>
+  <link rel="stylesheet" href="css/agendamento.css" />
+  <script src="js/agendamento.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <nav>
+  <header>
+    <div class="top-bar">
+      <img src="img/hc.png" alt="Logo Hospital das Clínicas" class="logo1" />
+      <img src="img/usp.png" alt="Logo Medicina USP" class="logo2" />
+    </div>
+  </header>
 
-        </nav>
-    </header>
-    <main>
+  <nav class="navegacao">
+    <div class="voltar" id="btn-voltar" role="button" tabindex="0">
+      <span class="seta-voltar"></span>
+      <span class="texto-voltar">Voltar para a tela principal</span>
+    </div>
+    <div class="botoes-centro">
+      <button class="botao ativo" id="tab-proximos">Próximos 3 meses</button>
+      <button class="botao" id="tab-ultimos">Últimos 3 meses</button>
+      <button class="botao" id="tab-outros">Outros dias</button>
 
-    </main>
-    <footer>
-        
-    </footer>
+      <section class="filtro-outros-dias" id="filtro-outros-dias" hidden>
+        <input type="date" id="data-inicio" class="input-data" />
+        <input type="date" id="data-fim" class="input-data" />
+        <button class="botao botao-lupa" id="buscar-data" aria-label="Buscar data">🔍</button>
+      </section>
+    </div>
+  </nav>
+
+  <main>
+    <article class="cartao ativo" id="proximos-3-meses">
+      <header class="cabecalho">
+        <div class="foto-icon">
+          <img src="img/icon-dr.png" alt="Ícone do Dr." />
+        </div>
+        <div>
+          <h2 class="nome">Dr. Alexandre Oliveira Rodrigues</h2>
+          <p class="info-medico">Clínico Geral</p>
+          <p class="info-medico"><strong>Horário:</strong> 13:00</p>
+          <p class="info-medico"><strong>Data:</strong> 30/03/2025</p>
+          <p class="info-medico"><strong>Local:</strong> <a href="https://www-link-do-googleMaps" target="_blank" rel="noopener noreferrer">https://www-link-do-googleMaps</a></p>
+        </div>
+      </header>
+    </article>
+
+    <article class="cartao" id="ultimos-3-meses" hidden>
+      <header class="cabecalho">
+        <div class="foto-icon">
+          <img src="img/icon-dr.png" alt="Ícone de Dr." />
+        </div>
+        <div>
+          <h2 class="nome">Dra. Elisa Silva dos Santos</h2>
+          <p class="info-medico">Clínico Geral</p>
+          <p class="info-medico"><strong>Horário:</strong> 13:00</p>
+          <p class="info-medico"><strong>Data:</strong> 30/03/2025</p>
+          <p class="info-medico"><strong>Local:</strong> <a href="https://www-link-da-pagina-do-exame" target="_blank" rel="noopener noreferrer">https://www-link-da-pagina-do-exame</a></p>
+        </div>
+      </header>
+    </article>
+
+    <article class="cartao" id="outros-dias" hidden>
+      <header class="cabecalho">
+        <div class="foto-icon">
+          <img src="img/icon-dr.png" alt="Ícone de Dr." />
+        </div>
+        <div>
+          <h2 class="nome">Dr. Felipe Rodrigues Nascimento</h2>
+          <p class="info-medico">Clínico Geral</p>
+          <p class="info-medico"><strong>Horário:</strong> <span id="hora-felipe"></span></p>
+          <p class="info-medico"><strong>Data:</strong> <span id="data-felipe"></span></p>
+          <p class="info-medico"><strong>Local:</strong> <a href="https://www-link-do-googleMaps" target="_blank" rel="noopener noreferrer">https://www-link-do-googleMaps</a></p>
+        </div>
+      </header>
+    </article>
+  </main>
+
+  <footer class="footer">
+    <p>Produzido por PlanoB • © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
+  </footer>
 </body>
-
 </html>
