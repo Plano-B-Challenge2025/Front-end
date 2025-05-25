@@ -21,6 +21,6 @@ document.addEventListener("DOMContentLoaded", () => {
   
     const btnVoltar = document.getElementById("btn-voltar");
     btnVoltar.addEventListener("click", () => {
-      window.location.href = "index.html";
+      window.location.href = "./menu.html";
     });
   });
