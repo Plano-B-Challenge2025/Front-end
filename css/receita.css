@@ -162,3 +162,43 @@
     bottom: 0;
     width: 100%;
   }
+
+
+    @media ( min-width:600px ){
+    .botoes-centro {
+    display: flex;
+
+    gap: 10px;
+    justify-content:flex-start; /* Alinha à esquerda */
+    width: 40%;
+  }
+
+}
+
+  @media ( min-width:768px ){
+    .botoes-centro {
+    display: flex;
+    gap: 10px;
+    justify-content:flex-start; /* Alinha à esquerda */
+    width: 50%;
+    }
+  }
+
+  @media ( min-width:992px ){
+    .botoes-centro {
+    display: flex;
+    gap: 10px;
+    justify-content:flex-start; /* Alinha à esquerda */
+    width: 70%;
+    }
+  }
+
+  @media ( min-width:1300px ){
+    .botoes-centro {
+    display: flex;
+    gap: 10px;
+    justify-content:flex-start; /* Alinha à esquerda */
+    width: 63%;
+  }
+
+}
