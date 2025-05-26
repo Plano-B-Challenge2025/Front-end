@@ -1,29 +1,56 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Teleconsulta-Hospital das clínicas FMUSP</title>
-    <link rel="stylesheet" href="./css/index.css">
-    <link rel="icon" href="../img/logo-icon.png">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Teleconsulta</title>
+  <link rel="stylesheet" href="../css/teleconsulta.css" />
+  <script src="../js/teleconsulta.js" defer></script>
 </head>
-
 <body>
-    <header>
-        <div>
-            <img src="" alt="">
-            <img src="" alt="">
+  <header>
+    <div class="top-bar">
+      <img src="../img/hc-logo.png" alt="Logo Hospital das Clínicas" class="logo1" />
+      <img src="../img/fmusp-logo.png" alt="Logo Medicina USP" class="logo2" />
+    </div>
+  </header>
+
+  <nav class="navegacao" aria-label="Navegação principal">
+    <div class="voltar" role="button" tabindex="0" id="btn-voltar" aria-label="Voltar para a tela principal">
+      <span class="seta-voltar"></span>
+      <span class="texto-voltar">Voltar para a tela principal</span>
+    </div>
+    <div class="botoes-centro">
+      <button class="botao verde">Teleconsulta</button>
+    </div>
+  </nav>
+
+  <main>
+    <article class="cartao">
+      <header class="cabecalho">
+        <div class="foto-icon">
+          <img src="../img/icon-dr.png" alt="Ícone de médico" />
         </div>
-    </header>
+        <div>
+          <h2 class="nome">Dr. Alexandre Oliveira Rodrigo</h2>
+          <span class="info-medico">Clínico Geral</span>
+        </div>
+      </header>
+      <section class="info-consulta">
+        <p><strong>Horário:</strong> 13:00</p>
+        <p><strong>Data:</strong> 30/03/2025</p>
+        <p><strong>Local:</strong></p>
+        <div class="caixa-link">
+          <a href="https://www.link-da-consulta-no-teams.com" target="_blank" rel="noopener noreferrer">
+            https://www.link-da-consulta-no-teams.com
+          </a>
+        </div>
+      </section>
+    </article>
+  </main>
 
-    <main>
-
-    </main>
-
-    <footer>
-
-    </footer>
+  <footer class="footer">
+    <p>Produzido por PlanoB • © 2025. Todos os Direitos Reservados - Direitos Autorais</p>
+  </footer>
 </body>
-
 </html>

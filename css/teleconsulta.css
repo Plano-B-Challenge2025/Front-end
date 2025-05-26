@@ -1,0 +1,134 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  font-family: sans-serif;
+}
+
+/* TOPO */
+.top-bar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 15px;
+  border-bottom: 3px solid #000000;
+}
+
+.logo1 {
+  height: 150px;
+}
+
+.logo2 {
+  height: 80px;
+}
+
+/* NAVEGAÇÃO */
+.navegacao {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 40px;
+  background-color: #fff;
+}
+
+.voltar {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+}
+
+.seta-voltar {
+  width: 24px;
+  height: 24px;
+  background: url("../img/seta.png") no-repeat center;
+  background-size: contain;
+  display: inline-block;
+}
+
+.texto-voltar {
+  white-space: nowrap;
+  font-size: 19px;
+}
+
+.botoes-centro {
+  display: flex;
+  justify-content: flex-start;
+  width: 60%;
+}
+
+/* BOTÃO TELECONSULTA */
+.botao.verde {
+  background: #1ba0a9;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 6px;
+  color: white;
+  font-size: 16px;
+  cursor: default;
+  margin-left: 65px;
+}
+
+/* CARTÃO */
+.cartao {
+  background: linear-gradient(to bottom, #1ba0a9, #207fc1);
+  border-radius: 8px;
+  color: #fff;
+  padding: 16px;
+  width: 320px;
+  margin: 40px 0 20px 20px;
+}
+
+.cabecalho {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+
+.foto-icon {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  overflow: hidden;
+  flex-shrink: 0;
+  background: #7a7a7a;
+}
+
+.foto-icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+.info-consulta p {
+  margin: 10px 0;
+}
+
+/* LINK */
+.caixa-link {
+  background-color: #e0f0e9;
+  padding: 10px;
+  border-radius: 6px;
+  margin-top: 12px;
+  word-break: break-word;
+}
+
+.caixa-link a {
+  text-decoration: underline;
+  color: #000;
+  font-size: 14px;
+}
+
+/* RODAPÉ */
+.footer {
+  background-color: #207fc1;
+  color: #fff;
+  text-align: center;
+  padding: 15px;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
