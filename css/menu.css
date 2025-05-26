@@ -46,7 +46,7 @@ header nav a img{
     display: flex;
     padding: 30px;
     gap: 50px;
-    margin-left: 100px;
+    margin-left: 90px;
   }
   .perfil {
     display: flex;
@@ -411,8 +411,9 @@ header nav a img{
     display: flex;
     padding: 30px;
     gap: 50px;
-    margin-left: 80px;
+    margin-left: 30px;
   }
+  
   .perfil {
     display: flex;
     flex-direction: column;
@@ -436,7 +437,8 @@ header nav a img{
     display: grid;
     grid-template-columns: repeat(3, 1fr);  
     grid-template-rows: repeat(3, auto);
-    gap: 10px; 
+    gap: 20px; 
+    padding: 20px;
    
   }
 
@@ -447,14 +449,12 @@ header nav a img{
     text-decoration: none;
   }
   .botao a img{
-    width: 70px;
-    height: 70px;
+    width: 80px;
+    height: 80px;
   }
   .botao a{
     font-size: 17px;
   }
-
-  
   .botoes-consulta{
     padding: 20px;
   }
